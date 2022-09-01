@@ -1,0 +1,7 @@
+A palette for use with GoldSrc decals contained within "decals.wad".
+To use: 
+* Create an 8-bit greyscale image.
+* Treat this image as an inverted alpha channel, wherein white is transparent and black is opaque.
+* Change entry 255 in the color palette (the #FF00FF-colored one) the desired color of the decal.
+* When the image is finalized, apply the color palette, making sure to disable any features that remove unused palette entries or change palette order.
+* Save the image as an uncompressed .BMP file.
